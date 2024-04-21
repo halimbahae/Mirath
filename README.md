@@ -1,0 +1,2 @@
+# Mirath
+ Islamic inheritance calculator
