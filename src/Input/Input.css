@@ -1,0 +1,9 @@
+.Input {
+  padding-bottom: 80px;
+}
+
+@media (min-width: 780px) {
+  .Input {
+    padding: 18px;
+  }
+}

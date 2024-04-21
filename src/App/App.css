@@ -1,0 +1,46 @@
+.App-header {
+  height: 86px;
+  display: flex;
+  place-content: center;
+  padding: 0 24px;
+  background: #e6e4c7;
+  box-shadow: 0 4px 6px rgba(230, 228, 199, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.App-name {
+  font-size: 20px;
+  line-height: 46px;
+}
+
+.App-main {
+  display: grid;
+}
+
+.App-calculate-button {
+  position: fixed;
+  bottom: 16px;
+  width: 80%;
+  right: 10%;
+  left: 10%;
+  min-width: 132.688px;
+  font-family: 'Cairo', sans-serif;
+}
+
+@media (min-width: 780px) {
+  .App-main {
+    margin: 48px 84px;
+    margin-bottom: 80px;
+  }
+  .App-calculate-button {
+    left: unset;
+    right: unset;
+    width: unset;
+    inset-inline-end: 16px;
+  }
+
+  @supports not (inset-inline-end: 16px) {
+    .App-calculate-button {
+      right: 16px;
+    }
+  }
+}

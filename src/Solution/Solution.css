@@ -1,0 +1,12 @@
+.Solution-header {
+  display: inline-block;
+  font-size: 20px;
+  border-bottom: 1px solid;
+  margin: 8px
+}
+
+@media (min-width: 780px) {
+  .Solution-header {
+    margin: 20px 0;
+  }
+}
